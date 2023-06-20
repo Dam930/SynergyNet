@@ -12,7 +12,7 @@ from utils.io import _load
 
 d = './aflw2000_data/eval'
 yaws_list = _load(osp.join(d, 'AFLW2000-3D.pose.npy'))
-# origin
+# origin data
 pts68_all_ori = _load(osp.join(d, 'AFLW2000-3D.pts68.npy'))
 # reannonated
 pts68_all_re = _load(osp.join(d, 'AFLW2000-3D-Reannotated.pts68.npy'))
